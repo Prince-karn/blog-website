@@ -1,0 +1,56 @@
+.pageWrapper {
+  min-height: 100vh;
+  background-color: #1a1a2e;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2rem;
+}
+
+.content {
+  line-height: 1.8;
+}
+
+.content h2 {
+  color: #3498db;
+  margin: 2rem 0 1rem;
+  font-size: 1.8rem;
+}
+
+.content p, .content ul {
+  margin-bottom: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.content li {
+  margin-bottom: 0.5rem;
+}

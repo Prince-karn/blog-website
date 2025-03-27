@@ -1,0 +1,80 @@
+.pageWrapper {
+  min-height: 100vh;
+  background-color: #1a1a2e;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.nav {
+  margin-bottom: 2rem;
+}
+
+.backLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+  border-radius: 8px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.backLink:hover {
+  transform: translateX(-5px);
+}
+
+.post {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.meta {
+  color: #888;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.content {
+  line-height: 1.8;
+}
+
+.content h2 {
+  color: #3498db;
+  margin: 2rem 0 1rem;
+  font-size: 1.8rem;
+}
+
+.content p {
+  margin-bottom: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .post {
+    padding: 1.5rem;
+  }
+}
