@@ -6,7 +6,9 @@ export default function Contact() {
       <div className={styles.container}>
         <header className={styles.header}>
           <h1 className={styles.title}>Contact Us</h1>
-          <p className={styles.subtitle}>We'd love to hear from you! Please fill out the form below to get in touch.</p>
+          <p className={styles.subtitle}>
+            We&apos;d love to hear from you! Please fill out the form below to get in touch.
+          </p>
         </header>
 
         <form className={styles.form}>
